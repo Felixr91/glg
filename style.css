@@ -47,7 +47,7 @@
 }
 
 .carousel-item{
-  height: 93vh;
+  height: 91vh;
 }
 
 .hero-text{
@@ -85,7 +85,7 @@
     display:none;
   }
   .post-f-t{
-    height: 12vh;
+    height: 9vh;
   }
   .hero-text{
     width: 60%;
