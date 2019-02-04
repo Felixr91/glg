@@ -112,13 +112,28 @@
   .text-marquee{
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 568px;
+  }
+  .line{
+    max-width: 568px;
   }
   .marquee-txt-left{
     padding-top: 10px;
   }
   .marquee-txt-right{
     padding-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 999px ){
+  .alternating-row-one{
+    padding-top:20px;
+  }
+}
+
+@media only screen and (max-width: 600px ){
+  .alternating-row-one{
+    padding-top:5px;
   }
 }
 
@@ -135,7 +150,6 @@
   max-width: 100%; 
   min-width: 500px;
   }
-
 }
 
 /* -----------------------------------------
