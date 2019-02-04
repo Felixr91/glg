@@ -155,6 +155,20 @@
   }
 }
 
+/* XL Screens */
+@media only screen and (min-width: 1500px){
+  .marquee-container{
+    padding: 150px;
+  }
+}
+
+/* XXL Screens */
+@media only screen and (min-width: 1800px){
+  .marquee-container{
+    padding: 150px 400px 150px 400px;
+  }
+}
+
 /* -----------------------------------------
                     Footer
 -------------------------------------------*/
@@ -163,6 +177,10 @@
   margin: 0px;
   padding: 5px;
   color: rgb(132, 155, 155);
+}
+
+.copy-right{
+  font-size:.8rem;
 }
 
 /* -----------------------------------------
